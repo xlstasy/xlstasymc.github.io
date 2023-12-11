@@ -1,0 +1,82 @@
+﻿<html>
+<link rel="shortcut icon" href="/style/favicon.png"/>
+<title>Minecraft</title>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Minecraft Infdev Visualizer</title>
+<link href="MCL.ico" rel="icon" type="image/x-ico">
+<link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div id="toppanel">
+<div id="logo"><a href="/index.htm" border="0"><img alt="" src="style/logo_small.gif" border="0" width="270" height="50"></a></div>
+<div id="links">557 servers, 340016
+registered, 54161 purchases. <a href="/stats.jsp">More
+stats</a><br>
+<a href="/index.htm">Home</a>, <a href="/about.jsp">About</a>, <a href="/development.jsp">Dev blog</a>, <a href="/community.jsp">Community</a>, <a href="/skin/">Preferences</a></div>
+<div id="loginpanel">
+ Logged in as ChangeMe. [ <a href="/logout.jsp">Log out</a> ] 
+</div>
+
+<div class="buynow">
+<form action="/register.jsp" method="get"><input type="hidden" name="mode" value="buy"> <input type="image" src="style/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+ 
+<div id="prepurchasesplash"><a href="/prepurchase.jsp" border="0"><img src="style/prepurchasesplash.gif" border="0"></a></div>
+
+</div>
+
+<div id="content">
+ <br>
+<br>
+<br>
+
+
+<h1>Infdev - Infinite Map Test</h1>
+
+<p align="center">
+<applet width="854" height="480" code="org.lwjgl.util.applet.AppletLoader" archive="lwjgl_util_applet.jar, lzma.jar" codebase=".">
+	<param name="al_title" value="Minecraft_Infdev_20100618">
+	<param name="al_main" value="com.mojang.minecraft.MinecraftApplet">
+	<param name="al_logo" value="logo_small.png">
+    <param name="al_progressbar" value="appletprogress.gif">
+    <param name="al_cache" value="false">
+    <param name="al_jars" value="lwjgl_applet.jar.pack.lzma, lwjgl.jar.pack.lzma, jinput.jar.pack.lzma, lwjgl_util.jar.pack.lzma, minecraft.jar">
+    <param name="al_windows" value="windows_natives.jar.lzma">
+    <param name="al_linux" value="linux_natives.jar.lzma">
+    <param name="al_mac" value="macosx_natives.jar.lzma">
+    <param name="al_solaris" value="solaris_natives.jar.lzma">
+    <param name="al_debug" value="false">
+    <param name="al_version" value="1.61">
+    <param name="codebase_lookup" value="true">
+    <param name="separate_jvm" value="false">
+    <font color="#ff0000">You need to Download Java 7 to play infdev</font>
+    <!--这是Debug参数，如果启用请去掉"!、-和所有文字（中文字）"param name="lwjgl_arguments" value="-Dorg.lwjgl.input.Mouse.allowNegativeMouseCoords=true -Dorg.lwjgl.util.Debug=true -Dorg.lwjgl.opengl.Display.allowSoftwareOpenGL=true"-->
+    <param name="java_arguments" value="-Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false -Xmx2048M -Xms1024M">
+    <param name="boxmessage" value="Minecraft Loading...">
+    <param name="boxbgcolor" value="#000000">
+    <param name="image" value="loading.png">
+    <param name="al_bgcolor" value="000000">
+    <param name="al_fgcolor" value="ffffff">
+    <param name="al_errorcolor" value="ff0000">
+    <param name="al_prepend_host" value="false">
+</applet></p>
+<left>
+<font face="" color="red" size="3.8">You need to Download Java to play infdev</font>
+</font></font>
+
+
+
+</font></p>
+</div>
+<div id="footer">
+<div id="footer">Copyright 2009 Mojang Specifications. All rights reserved. For support, email markus at mojang dot com.</div>
+<br>
+</div>
+</body>
+
+</html>
